@@ -1,7 +1,7 @@
 <?php
 
 // link to the font file no the server
-$fontname = 'font/arial.ttf';
+$fontname = 'font/ss.ttf';
 // controls the spacing between text
 $i=40;
 //JPG image quality 0-100
@@ -26,7 +26,7 @@ function create_image($user){
 			
 			$height= 340;
 			// this defines the starting height for the text block
-			$y = imagesy($im) - $height - 890;// pengaturan tinggi posisi
+			$y = imagesy($im) - $height - 890;
 			 
 		// loop through the array and write the text
 		$i=200;	
